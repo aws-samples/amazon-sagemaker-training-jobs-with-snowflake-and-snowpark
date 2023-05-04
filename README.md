@@ -1,11 +1,15 @@
-## My Project
+## Amazon SageMaker training jobs using Snowpark Python API
 
-TODO: Fill this README out!
+[Amazon SageMaker](https://aws.amazon.com/sagemaker/) is a fully managed service for data science and machine learning (ML) workflows. You can use Amazon SageMaker to simplify the process of building, training, and deploying ML models.
 
-Be sure to:
+To train a model, you can include your training script and dependencies in a [Docker container](https://www.docker.com/resources/what-container) that runs your training code. A container provides an effectively isolated environment, ensuring a consistent runtime and reliable training process.
 
-* Change the title in this README
-* Edit your repository description on GitHub
+In this GitHub repo we will demonstrate how to use SageMaker training jobs using Snowpark Python API to fetch data from Snowflake.
+
+### Build a custom SageMaker Studio image with Snowpark already installed
+
+We aim to explain how to create a custom image for Amazon SageMaker Studio that has Snowpark already installed. The advantage of creating an image and make it available to all SageMaker Studio users is that it creates a consistent environment for the SageMake Studio users, which they could also run locally.
+To create the custom Conda environment for Snowpark, please follow the instructions [here](snowflake-env-kernel-image).
 
 ## Security
 
