@@ -1,4 +1,4 @@
-## Amazon SageMaker training jobs using Snowpark Python API
+## Amazon SageMaker training jobs using Snowflake Snowpark Python API
 
 [Amazon SageMaker](https://aws.amazon.com/sagemaker/) is a fully managed service for data science and machine learning (ML) workflows. You can use Amazon SageMaker to simplify the process of building, training, and deploying ML models.
 
