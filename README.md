@@ -32,7 +32,7 @@ We recommend to store Snowflake `account`, `user` and `password` in AWS Secrets 
 
 1. Navigate to AWS Secrets Manager on the console and choose `Store new secret`
 ![navigate to AWS Secrets Manager on the console](./images/1_store_a_new_secret.png)
-2. Choose `Other type of secret`, add rows for `account`, `user` and `password` and fill the Snowflake credentials.
+2. Choose `Other type of secret`, add rows for `account`, `user` and `password` and fill your Snowflake account id, username and password.
 ![choose secret type](./images/2_choose_secret_type.png)
 3. Choose `Next`
 ![click next](./images/3_click_next.png)
