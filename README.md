@@ -4,6 +4,8 @@
 
 To train a model, you can include your training script and dependencies in a [Docker container](https://www.docker.com/resources/what-container) that runs your training code. A container provides an effectively isolated environment, ensuring a consistent runtime and reliable training process.
 
+The [Snowpark library](https://docs.snowflake.com/en/developer-guide/snowpark/index.html) provides an intuitive API for querying and processing data in a data pipeline. Using the Snowpark library, you can build applications that process data in Snowflake without moving data to the system where your application code runs. You can also automate data transformation and processing by writing stored procedures and scheduling those procedures as tasks in Snowflake.
+
 In this GitHub repo we will demonstrate how to use SageMaker training jobs using Snowpark Python API to fetch data from Snowflake.
 
 The following figure represents the high-level architecture of the proposed solution to use Snowflake as a data source, using Snowpark Python API to train ML models with Amazon SageMaker.
