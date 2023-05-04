@@ -16,12 +16,12 @@ In this GitHub repo we will demonstrate how to use SageMaker training jobs using
 
 We suggest for the initial setup, to use Cloud9 on a `m5.large` instance type with 64 GB of storage.
 
-### Build a custom SageMaker Studio image with Snowpark already installed
+## Build a custom SageMaker Studio image with Snowpark already installed
 
 We aim to explain how to create a custom image for Amazon SageMaker Studio that has Snowpark already installed. The advantage of creating an image and make it available to all SageMaker Studio users is that it creates a consistent environment for the SageMake Studio users, which they could also run locally.
 To create the custom Conda environment for Snowpark, please follow the instructions [here](snowflake-env-kernel-image).
 
-### Store Snowflake credentials on AWS Secrets Manager
+## Store Snowflake credentials on AWS Secrets Manager
 
 Secrets Manager enables you to replace hardcoded credentials in your code, including passwords, with an API call to Secrets Manager to retrieve the secret programmatically. This helps ensure the secret can't be compromised by someone examining your code, because the secret no longer exists in the code. 
 
@@ -38,7 +38,7 @@ We recommend to store Snowflake `account`, `user` and `password` in AWS Secrets 
 5. Choose `Store`
 ![click next](./images/5_click_store.png)
 
-### Populate the Snowflake tables 
+## Populate the Snowflake tables 
 
 Run the [Getting Started with Snowpark for Machine Learning on SageMaker workshop](https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_for_machine_learning_on_sagemaker/index.html) to populate the Snowflake tables.
 
@@ -46,7 +46,7 @@ When opening the notebooks on SageMaker Studio, choose `snowflake-env-kernel` ke
 
 ![Choose Snowflake kernel next](./images/choose_snowflake_kernel.png)
 
-### Run the SageMaker Training notebook
+## Run the SageMaker Training notebook
 
 1. Clone this GitHub Repo on SageMaker Studio
 ![Clone git repo](./images/clone_git_repo.png)
@@ -54,9 +54,8 @@ When opening the notebooks on SageMaker Studio, choose `snowflake-env-kernel` ke
 Alternatively, you can open terminal (File -> New -> Terminal) and execute:
 `git clone https://github.com/aws-samples/amazon-sagemaker-training-jobs-with-snowflake-and-snowpark`
 
-2. Open the [snowflake_bring_your_own_container_training notebook](./snowflake_bring_your_own_container_training/snowflake_bring_your_own_container_training.ipynb), you can choose any kernel.
-
-3. Run the notebook cel by cell.   
+2. Open the [snowflake_bring_your_own_container_training notebook](./snowflake_bring_your_own_container_training/snowflake_bring_your_own_container_training.ipynb), you can choose any kernel. Run the notebook cell by cell.   
+![Run the notebook](./images/run_the_notebook.png)
 
 ## Security
 
