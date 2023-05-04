@@ -6,6 +6,9 @@ To train a model, you can include your training script and dependencies in a [Do
 
 In this GitHub repo we will demonstrate how to use SageMaker training jobs using Snowpark Python API to fetch data from Snowflake.
 
+The following figure represents the high-level architecture of the proposed solution to use Snowflake as a data source, using Snowpark Python API to train ML models with Amazon SageMaker.
+![architecture](./images/architecture.png)
+
 ## Prerequisite
 
 - An AWS Account.
