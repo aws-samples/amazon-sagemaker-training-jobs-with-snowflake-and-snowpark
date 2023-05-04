@@ -21,6 +21,9 @@ We suggest for the initial setup, to use Cloud9 on a `m5.large` instance type wi
 We aim to explain how to create a custom image for Amazon SageMaker Studio that has Snowpark already installed. The advantage of creating an image and make it available to all SageMaker Studio users is that it creates a consistent environment for the SageMake Studio users, which they could also run locally.
 To create the custom Conda environment for Snowpark, please follow the instructions [here](snowflake-env-kernel-image).
 
+After you complete this step, the outcome should be a `snowflake-env-kernel` attached to your SageMaker Studio domain  
+![Snowflake kernel attached](./images/snowflake_kernel_attached_to_studio_domain.png)
+
 ## Store Snowflake credentials on AWS Secrets Manager
 
 Secrets Manager enables you to replace hardcoded credentials in your code, including passwords, with an API call to Secrets Manager to retrieve the secret programmatically. This helps ensure the secret can't be compromised by someone examining your code, because the secret no longer exists in the code. 
