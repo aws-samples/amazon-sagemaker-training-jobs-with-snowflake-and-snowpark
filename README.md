@@ -39,7 +39,7 @@ We recommend to store Snowflake `account`, `user` and `password` in AWS Secrets 
 5. Choose `Store`
 ![click next](./images/5_click_store.png)
 
-## Run the 
+## Run the notebook
 
 ## Security
 
