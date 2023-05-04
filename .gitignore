@@ -1,2 +1,10 @@
 
 .DS_Store
+.idea/amazon-sagemaker-training-jobs-with-snowflake-and-snowpark.iml
+.idea/aws.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml

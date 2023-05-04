@@ -10,8 +10,7 @@ In this GitHub repo we will demonstrate how to use SageMaker training jobs using
 
 - An AWS Account.
 - An IAM user with Admin-like permissions.
-- Snowflake account - you can sign up [here](https://signup.snowflake.com/).  
-- Running the [Getting Started with Snowpark for Machine Learning on SageMaker workshop](https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_for_machine_learning_on_sagemaker/index.html) to populate the Snowflake tables.
+- Snowflake account - you can sign up [here](https://signup.snowflake.com/).
 
 ## Setup
 
@@ -39,12 +38,19 @@ We recommend to store Snowflake `account`, `user` and `password` in AWS Secrets 
 5. Choose `Store`
 ![click next](./images/5_click_store.png)
 
-## Run the notebook
+### Populate the Snowflake tables 
 
-1. Clone the GitHub Repo
+Run the [Getting Started with Snowpark for Machine Learning on SageMaker workshop](https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_for_machine_learning_on_sagemaker/index.html) to populate the Snowflake tables.
 
-2. Open the notebook
-Choose `snowflake-env-kernel` kernel
+When opening the notebooks on SageMaker Studio, choose `snowflake-env-kernel` kernel
+
+![Choose Snowflake kernel next](./images/choose_snowflake_kernel.png)
+
+### Run the SageMaker Training notebook
+
+1. Clone this GitHub Repo on SageMaker Studio
+
+2. Open the [snowflake_bring_your_own_container_training notebook](./snowflake_bring_your_own_container_training/snowflake_bring_your_own_container_training.ipynb), choose `snowflake-env-kernel` kernel.
 
 3. 
 
