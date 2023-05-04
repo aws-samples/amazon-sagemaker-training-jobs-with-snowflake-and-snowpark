@@ -52,6 +52,9 @@ When opening the notebooks on SageMaker Studio, choose `snowflake-env-kernel` ke
 
 ![Choose Snowflake kernel next](./images/choose_snowflake_kernel.png)
 
+Upon completing the Getting Started with Snowpark for Machine Learning on SageMaker workshop, you should have the `HOL_DB.PUBLIC.MAINTENANCE_HUM` table populated.
+![Table populated](./images/snowflake_tabels_populated.png)
+
 ## Run the SageMaker Training notebook
 
 1. Clone this GitHub Repo on SageMaker Studio
