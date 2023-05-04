@@ -49,10 +49,14 @@ When opening the notebooks on SageMaker Studio, choose `snowflake-env-kernel` ke
 ### Run the SageMaker Training notebook
 
 1. Clone this GitHub Repo on SageMaker Studio
+![Clone git repo](./images/clone_git_repo.png)
 
-2. Open the [snowflake_bring_your_own_container_training notebook](./snowflake_bring_your_own_container_training/snowflake_bring_your_own_container_training.ipynb), choose `snowflake-env-kernel` kernel.
+Alternatively, you can open terminal (File -> New -> Terminal) and execute:
+`git clone https://github.com/aws-samples/amazon-sagemaker-training-jobs-with-snowflake-and-snowpark`
 
-3. 
+2. Open the [snowflake_bring_your_own_container_training notebook](./snowflake_bring_your_own_container_training/snowflake_bring_your_own_container_training.ipynb), you can choose any kernel.
+
+3. Run the notebook cel by cell.   
 
 ## Security
 
