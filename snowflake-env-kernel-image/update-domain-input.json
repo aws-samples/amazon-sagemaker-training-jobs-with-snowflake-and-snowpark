@@ -1,0 +1,13 @@
+{
+    "DomainId": "<domain-id>",
+    "DefaultUserSettings": {
+        "KernelGatewayAppSettings": {
+            "CustomImages": [
+                {
+                    "ImageName": "snowflake-env-kernel",
+                    "AppImageConfigName": "snowflake-env-kernel-config"
+                }
+            ]
+        }
+    }
+}

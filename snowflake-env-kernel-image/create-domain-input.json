@@ -1,0 +1,19 @@
+{
+    "DomainName": "domain-with-snowflake-conda-env",
+    "VpcId": "<vpc-id>",
+    "SubnetIds": [
+        "<subnet-ids>"
+    ],
+    "DefaultUserSettings": {
+        "ExecutionRole": "<role-arn>",
+        "KernelGatewayAppSettings": {
+            "CustomImages": [
+                {
+                    "ImageName": "snowflake-env-kernel",
+                    "AppImageConfigName": "snowflake-env-kernel-config"
+                }
+            ]
+        }
+    },
+    "AuthMode": "IAM"
+}
