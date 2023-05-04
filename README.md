@@ -8,9 +8,9 @@ In this GitHub repo we will demonstrate how to use SageMaker training jobs using
 
 ## Prerequisite
 
-- An AWS Account
-- An IAM user with Admin-like permissions
-- Snowflake account - you can sign up [here](https://signup.snowflake.com/)  
+- An AWS Account.
+- An IAM user with Admin-like permissions.
+- Snowflake account - you can sign up [here](https://signup.snowflake.com/).  
 - Running the [Getting Started with Snowpark for Machine Learning on SageMaker workshop](https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_for_machine_learning_on_sagemaker/index.html) to populate the Snowflake tables.
 
 ## Setup
@@ -40,6 +40,13 @@ We recommend to store Snowflake `account`, `user` and `password` in AWS Secrets 
 ![click next](./images/5_click_store.png)
 
 ## Run the notebook
+
+1. Clone the GitHub Repo
+
+2. Open the notebook
+Choose `snowflake-env-kernel` kernel
+
+3. 
 
 ## Security
 
