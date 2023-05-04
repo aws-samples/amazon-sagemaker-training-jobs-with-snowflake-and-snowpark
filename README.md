@@ -6,7 +6,7 @@ To train a model, you can include your training script and dependencies in a [Do
 
 The [Snowpark library](https://docs.snowflake.com/en/developer-guide/snowpark/index.html) provides an intuitive API for querying and processing data in a data pipeline. Using the Snowpark library, you can build applications that process data in Snowflake without moving data to the system where your application code runs. You can also automate data transformation and processing by writing stored procedures and scheduling those procedures as tasks in Snowflake.
 
-In this GitHub repo we will demonstrate how to use SageMaker training jobs using Snowpark Python API to fetch data from Snowflake.
+In this GitHub repository we will demonstrate how to use SageMaker training jobs using Snowpark Python API to fetch data from Snowflake.
 
 The following figure represents the high-level architecture of the proposed solution to use Snowflake as a data source, using Snowpark Python API to train ML models with Amazon SageMaker.
 ![architecture](./images/architecture.png)
@@ -59,7 +59,7 @@ Upon completing the Getting Started with Snowpark for Machine Learning on SageMa
 
 ## Run the SageMaker Training notebook
 
-1. Clone this GitHub Repo on SageMaker Studio
+1. Clone this GitHub repository on SageMaker Studio
 ![Clone git repo](./images/clone_git_repo.png)
 
 Alternatively, you can open terminal in SageMaker Studio (File -> New -> Terminal) and execute:
