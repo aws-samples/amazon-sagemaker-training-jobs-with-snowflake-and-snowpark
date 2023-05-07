@@ -48,7 +48,7 @@ We recommend to store Snowflake `account`, `user` and `password` in AWS Secrets 
 
 ## Populate the Snowflake tables 
 
-**Note** Please make sure you run [Build a custom SageMaker Studio image with Snowpark already installed](#build-a-custom-sagemaker-studio-image-with-snowpark-already-installed) step, so you'll have a `snowflake-env-kernel` kernel set up in SageMaker Studio.
+**Note:** Please make sure you run [Build a custom SageMaker Studio image with Snowpark already installed](#build-a-custom-sagemaker-studio-image-with-snowpark-already-installed) step, so you'll have a `snowflake-env-kernel` kernel set up in SageMaker Studio.
 
 Run the [Getting Started with Snowpark for Machine Learning on SageMaker workshop](https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_for_machine_learning_on_sagemaker/index.html) to populate the Snowflake tables.
 
