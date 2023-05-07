@@ -14,7 +14,7 @@ The following figure represents the high-level architecture of the proposed solu
 ## Prerequisite
 
 - An AWS Account.
-- An IAM user with Admin-like permissions.
+- An IAM user with SageMaker and CodeBuild permissions.
 - Snowflake account - you can sign up [here](https://signup.snowflake.com/).
 
 ## Setup
@@ -55,7 +55,7 @@ When opening the notebooks on SageMaker Studio, choose `snowflake-env-kernel` ke
 ![Choose Snowflake kernel next](./images/choose_snowflake_kernel.png)
 
 Upon completing the Getting Started with Snowpark for Machine Learning on SageMaker workshop, you should have the `HOL_DB.PUBLIC.MAINTENANCE_HUM` table populated.
-![Table populated](./images/snowflake_tabels_populated.png)
+![Table populated](./images/snowflake_tables_populated.png)
 
 ## Run the SageMaker Training notebook
 
