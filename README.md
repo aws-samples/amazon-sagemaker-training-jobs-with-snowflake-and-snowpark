@@ -56,7 +56,7 @@ When opening `0_setup.ipynb` notebook on SageMaker Studio to Load HOL data to Sn
 
 ![Choose Snowflake kernel next](./images/choose_snowflake_kernel.png)
 
-Upon completing the Getting Started with Snowpark for Machine Learning on SageMaker workshop, you should have the `HOL_DB.PUBLIC.MAINTENANCE_HUM` table populated.
+Upon completing running `0_setup.ipynb` notebook from Getting Started with Snowpark for Machine Learning on SageMaker workshop, you should have the `HOL_DB.PUBLIC.MAINTENANCE_HUM` table populated.
 ![Table populated](./images/snowflake_tables_populated.png)
 
 ## Run the SageMaker Training notebook
