@@ -52,7 +52,7 @@ We recommend to store Snowflake `account`, `user` and `password` in AWS Secrets 
 
 Run the [Getting Started with Snowpark for Machine Learning on SageMaker workshop](https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_for_machine_learning_on_sagemaker/index.html) to populate the Snowflake tables.
 
-When opening the notebooks on SageMaker Studio, choose `snowflake-env-kernel` kernel you have created in previous step.  
+When opening `0_setup.ipynb` notebook on SageMaker Studio to Load HOL data to Snowflake, choose `snowflake-env-kernel` kernel you have created in previous step.  
 
 ![Choose Snowflake kernel next](./images/choose_snowflake_kernel.png)
 
